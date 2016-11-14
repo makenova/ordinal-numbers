@@ -34,14 +34,14 @@ test('11 to 13', t => {
 
 test('cli', function (t) {
   return Promise.all([
-    execa.stdout('./index.js', [0]),
-    execa.stdout('./index.js', [10]),
-    execa.stdout('./index.js', [45032])
+    execa.stdout('./cli.js', [0]),
+    execa.stdout('./cli.js', [10]),
+    execa.stdout('./cli.js', [45032])
   ]).then(function (values) {
     t.is(values[0], '0')
     t.is(values[1], '10th')
     t.is(values[2], '45032nd')
   }).catch(function (reason) {
-    t.fail()
+    t.fail(reason)
   })
 })

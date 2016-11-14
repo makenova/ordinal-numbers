@@ -1,10 +1,10 @@
 {
   "name": "ordinal-numbers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add the ordinal indicator to a integer",
   "main": "index.js",
   "bin": {
-    "ordinal": "./index.js"
+    "ordinal": "./cli.js"
   },
   "scripts": {
     "test": "ava"

@@ -1,10 +1,3 @@
-#!/usr/bin/env node
-
-var runAsScript = require.main === module
-
-if (runAsScript)
-  console.log(ordinalize(parseInt(process.argv[2], 10)))
-
 function validate(number) {
   return Number.isInteger(number);
 }
