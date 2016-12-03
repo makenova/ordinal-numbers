@@ -17,7 +17,7 @@ npm install -g ordinal-numbers
 ## Use
 
 ```js
-var ordinal = require('ordinal-number')
+var ordinal = require('ordinal-numbers')
 ordinal(0) // => '0'
 ordinal(13) // => '13th'
 ```
@@ -25,7 +25,7 @@ ordinal(13) // => '13th'
 or in with `import`
 
 ```js
-import ordinal from 'ordinal-number'
+import ordinal from 'ordinal-numbers'
 ordinal(61) // => '61st'
 ordinal(22) // => '22nd'
 ```
