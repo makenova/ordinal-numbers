@@ -7,11 +7,11 @@ Add the ordinal indicator to a integer
 ## Install
 
 ```sh
-npm install --save ordinal-number
+npm install --save ordinal-numbers
 
 # OR install it globally for cli use
 
-npm install -g ordinal-number
+npm install -g ordinal-numbers
 ```
 
 ## Use
